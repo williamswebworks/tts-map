@@ -9,7 +9,7 @@ var sys    = require('sys'),
 // Command line args
 var USERNAME = process.ARGV[2];
 var PASSWORD = process.ARGV[3];
-var KEYWORD  = process.ARGV[4] || "europeanrevolution";
+var KEYWORD  = process.ARGV[4] || "top100";
 
 if (!USERNAME || !PASSWORD)
   return sys.puts("Usage: node server.js <twitter_username> <twitter_password> <keyword>");
